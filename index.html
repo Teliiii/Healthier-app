@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Homepage</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <style>
+            ul {
+                list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+            }
+        
+            li {
+            float: left;
+            }
+        
+            li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            }
+        
+            li a:hover:not(.active) {
+            background-color: #111;
+            }
+        
+            .active {
+            background-color: #04AA6D;
+            }
+        </style>
+        </head>
+        <body style="background-color:#ee82ee;">
+        
+        <ul>
+          <li><a href="index.html" target="_blank">Diet Tool</a></li>
+          <li><a href="workout.html" target="_blank">Workout Tool</a></li>
+          <li><a href="mealPlan.html" target="_blank">Meal Planner</a></li>
+        </ul>
+
+        <form>
+            <h1>Enter your Height & Weight</h1>
+            <tr> 
+                <td width="95" style="text-align:right;"><b>Your Height:</b>&nbsp;</td>
+                <td width="59" align="left"><input type="text" placeholder="Feet"></td>
+                <td width="50" align="left"><input type="text" placeholder="Inches"></td>
+                <div>
+                <td width="95" style="text-align:right;"><b>Current Weight:</b>&nbsp;</td>
+                <td width="59" align="left"><input type="text" placeholder="Pounds"></td>
+                </div>
+                <div>
+                <td width="95" style="text-align:right;"><b>Goal Weight:</b>&nbsp;</td>
+                <td width="59" align="left"><input type="text" placeholder="Pounds"></td>
+                </div>
+                <div>
+                    <td width="95" style="text-align:right;"><b>Time Frame:</b>&nbsp;</td>
+                    <td width="59" align="left"><input type="text" placeholder="in weeks"></td>
+                </div>
+            </tr>
+            <input type="submit" value="Enter">
+
+
+        </form>
+
+    </body>
+</html>
