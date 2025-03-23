@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Homepage</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <style>
+            ul {
+                list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+            }
+        
+            li {
+            float: left;
+            }
+        
+            li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            }
+        
+            li a:hover:not(.active) {
+            background-color: #111;
+            }
+        
+            .active {
+            background-color: #04AA6D;
+            }
+        </style>
+        </head>
+        <body style="background-color:#ee82ee;">
+        
+        <ul>
+          <li><a href="index.html" target="_blank">Diet Tool</a></li>
+          <li><a href="workout.html" target="_blank">Workout Tool</a></li>
+          <li><a href="mealPlan.html" target="_blank">Meal Planner</a></li>
+        </ul>
+
+        <form>
+            <h1>Meal Planner</h1>
+            <tr> 
+                <td width="95" style="text-align:right;"><b>Enter your daily calorie budget here:</b>&nbsp;</td>
+                <td width="59" align="left"><input type="text" placeholder="Ex. Lats, shoulders"></td>
+                <br>
+                <td width="95" style="text-align:right;"><b>List any ingredients your have available or that you prefer:</b>&nbsp;</td>
+                <td width="59" align="left"><input type="text" placeholder="Ex. Lats, shoulders"></td>
+                <br>
+                <td width="95" style="text-align:right;"><b>List any dietary restriction you have here(type "none" if you don't have any):</b>&nbsp;</td>
+                <td width="59" align="left"><input type="text" placeholder="Ex. 10 "></td>
+            </tr>
+            <br>
+            <input type="submit" value="Enter">
+        </form>
+
+    </body>
+</html>
