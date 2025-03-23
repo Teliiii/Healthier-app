@@ -9,10 +9,10 @@ print("Enter your current weight:")
 current_weight = input("")
 print("Enter your goal weight: ")
 goal_weight = input("")
-print("Enter the time frame you want to complete this weight loss in months")
+print("Enter the time frame you want to complete this weight loss in weeks")
 time_period = input("")
 
-user_input = "Can you tell me the direct range of the calories I should be consuming if I weigh "+current_weight+" pounds and I have a height of "+current_height+"inches, and I want to reach "+goal_weight+" pounds in "+time_period+" months? Only send the calories I should be consuming, no other information."
+user_input = "Can you tell me the direct range of the calories I should be consuming if I weigh "+current_weight+" pounds and I have a height of "+current_height+"inches, and I want to reach "+goal_weight+" pounds in "+time_period+" weeks? Only send the calories I should be consuming, no other information."
 question = str(llm.invoke(user_input))
 start_index = 9
 end_index = question.find(' additional_kwargs=', start_index)
