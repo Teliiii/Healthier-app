@@ -1,7 +1,7 @@
 from langchain_openai import ChatOpenAI
 llm = ChatOpenAI(
-    api_key = "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"
+    api_key = "sk-ycFpnouWkNuSL_wlXEAV0nOotkyq93vd3TU6TUCD_fT3BlbkFJfMWzsbh13DnU3MDVjws7psbq_Gug0Ovx5e5TtUDCAA"
 )
 
-response = llm.invoke("Hello, how are you?")
+response = llm.invoke("whats your mothers name")
 print(response)
